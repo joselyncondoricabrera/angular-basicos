@@ -6,6 +6,7 @@ import { HeroeComponent } from './heroes/heroe/heroe.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { ListadoComponent } from './heroes/listado/listado.component';
 import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
 
 //tarea:
 //crear un modulo llamando contadorModule
@@ -19,7 +20,8 @@ import { ContadorModule } from './contador/contador.module';
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]
